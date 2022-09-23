@@ -13,10 +13,10 @@ const getData = () => {
       let pBody = document.createElement("p");
       let hr = document.createElement("hr");
 
-      /* console.log(pId);
+      console.log(pId);
       console.log(pUserId);
       console.log(pTitle);
-      console.log(pBody); */
+      console.log(pBody);
 
       pId.innerText = `Post ID: ${data.id}`;
       pUserId.innerText = `User ID: ${data.userId}`;
